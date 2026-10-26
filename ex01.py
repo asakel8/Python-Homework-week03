@@ -10,6 +10,9 @@ for character in password:
         upper = True
     if character.lower():
         lower = True
+    #for numbers
+    if character.isdigit():
+        digit = True
     if character in "!@#$%^&":
         special = True
 

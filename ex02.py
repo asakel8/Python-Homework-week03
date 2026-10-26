@@ -1,7 +1,7 @@
 import random
 
 user = input("Choose R, P, or S: ")
-computer = random.choice(("R", "P", "S"))
+computer = random.choice(["R", "P", "S"])
 
 print("Computer chose:", computer)
 
